@@ -1,6 +1,44 @@
 class Charger{
-public static void main(String arg[])
-{System.out.println("FAST CHARGING TECHNOLOGY: Advanced 22.5W charging delivers rapid power to your device with Quick Charge 3.0 & Power Delivery support - charge your phone from 0 to 50% in just 30 minutes");
-System.out.println("WIDE COMPATIBILITY: Perfect for all Xiaomi, Redmi, and POCO smartphones including Redmi Note series, Mi series, POCO F/X series, and other USB-C devices");
-System.out.println("SMART & SAFE: Built-in intelligent chip provides multiple protection against over-current, over-voltage, short-circuit, and overheating for maximum device safety");}
+static int id=1001; 
+static String brand="Anker"; 
+static String color="Black";  
+static int power=20;  
+static String type="Wireless";  
+static int  price= 200; 
+static boolean isWashable=false;
+public static void main(String[] a)
+      {
+        System.out.println("the charger id is"+id);
+		System.out.println("the charger brand is"+brand);
+		System.out.println("the charger color is"+color);
+		System.out.println("the charger power is"+ power);
+		System.out.println("the charger type is"+type);
+		System.out.println("the charger price is"+price);
+		System.out.println("the charger washable  is"+isWashable);
+		//id=100; 
+	 //brand="Samsung"; 
+     //String color="White";  
+     //power=10;  
+	 //type="Wire";  
+     //price= 100; 
+     //isWashable=true;
+		brandupdate();
+		System.out.println("the charger id is"+id);
+		System.out.println("the charger brand is"+brand);
+		System.out.println("the charger color is"+color);
+		System.out.println("the charger power is"+ power);
+		System.out.println("the charger type is"+type);
+		System.out.println("the charger price is"+price);
+		System.out.println("the charger washable  is"+isWashable);
+      }
+public static void brandupdate()
+{
+	 id=100; 
+	 brand="Samsung"; 
+     String color="White";  
+     power=10;  
+	 type="Wire";  
+     price= 100; 
+     isWashable=true;
+}
 }

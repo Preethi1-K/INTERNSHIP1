@@ -1,11 +1,33 @@
 class Watch{
-public static void main(String smartwatch[])
+static int id=401; 
+static String brand="Rolex"; 
+static String color="Gold"; 
+static String type="Analog"; 
+static String shape="Round"; 
+static boolean isWaterProof=true;
+public static void main(String go[])
 {
-System.out.println("About this item:");
-System.out.println("1.8 display: Say hello to the big screen and view your day in just a glance.;40% more screen area: ColorFit Pulse 2 with an increased screen area than its predecessor gives you a better, and clearer view of your day.");
-System.out.println("550 nits brightness: No more looking for shades to view your watch screen. Enjoy a sharp view in both, sun and shade.");
-System.out.println("Noise Health Suite: Get real-time health updates on your wrist.; 50 sports modes: Kick start your fitness journey with a range of sports modes.");
-System.out.println("Calls & SMS quick reply: Take charge of the day and stay connected with the world on your terms.");
-System.out.println("Color Name: Olive Green; Included Components: ‎Smartwatch, Magnetic Charger, User Manual, Warranty Card; Item Type Name: Smartwatch; Connectivity Technology: Usb");
+	System.out.println("The watch id is "+id);
+	System.out.println("The watch brand is "+brand);
+	System.out.println("The watch color is "+color);
+	System.out.println("The watch type is "+ type);
+	System.out.println("The watch shape is "+shape);
+	System.out.println("The watch is waterproof"+isWaterProof);
+	update();
+	System.out.println("The watch id is "+id);
+	System.out.println("The watch brand is "+brand);
+	System.out.println("The watch color is "+color);
+	System.out.println("The watch type is "+ type);
+	System.out.println("The watch shape is "+shape);
+	System.out.println("The watch is waterproof"+isWaterProof);
+}
+public static void update()
+{
+	id=40; 
+	brand="Fastrack"; 
+	color="Silver"; 
+	type="Analog&digital"; 
+	shape="Suare"; 
+	isWaterProof=false;
 }
 }
