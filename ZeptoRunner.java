@@ -1,7 +1,9 @@
 class ZeptoRunner{
-public static void main(String arg[])
+public static void main(String materials[])
 {
-String result = Zepto.logIn("8123456789","123","ganesh","9123456789","banglore","3");
-System.out.println(result);
+double foodPrice=Zepto.foodSearch("curd rice");
+System.out.println(foodPrice);
+double Price=Zepto.foodSearch("curd rice",9);
+System.out.println(Price);
 }
 }
